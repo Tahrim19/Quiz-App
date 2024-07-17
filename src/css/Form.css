@@ -1,0 +1,13 @@
+.settings-form{
+    height: 500px;
+    width: 450px;
+    background-color: pink;
+    margin-left: 32%;
+    margin-top: 2%;
+}
+
+.input-container{
+    padding: 20px;
+    background-color: aquamarine;
+}
+
