@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react'
 
@@ -18,7 +17,7 @@ export default function FormCategory() {
         setCategory(e.target.value)
     }
   return (
-    <>
+    <div className='input-container'>
     <h4>Select Category</h4>
     <select value={category} onChange={handleSubmit}>
     <option hidden>Category...</option>
@@ -31,6 +30,6 @@ export default function FormCategory() {
     }
     </select>
 
-    </>
+    </div>
   )
 }
