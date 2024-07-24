@@ -18,7 +18,7 @@ export default function FormCategory() {
     }
   return (
     <div className='input-container'>
-    <h4>Select Category</h4>
+    <h4>Select Category:</h4>
     <select value={category} onChange={handleSubmit}>
     <option hidden>Category...</option>
     {

@@ -8,10 +8,19 @@ export default function Settings() {
     <>
     <form className='settings-form'>
     <div className='settings-form-data'>
-    <h3>Trivia!</h3>
+    <h3>Quiz Master: React Edition</h3>
     <FormCategory/>
     <FormDifficulty/>
     </div>
+    <p className='settings-form-data' 
+     style={{
+      textAlign: 'center', 
+      fontSize: '10px',
+      marginTop: '10px', 
+    }}
+    >
+      Made using Reactjs
+      </p>
     </form>
     </>
   )
